@@ -1,0 +1,191 @@
+@import url('https://api.github.com/users/marlucealves1');
+@import url('');
+* {
+    font-family: "Signika", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding: 20px;
+   
+}
+
+header .logo {
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+header ul #nav-button {
+    
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+
+.main-characters {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#character-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem;
+}
+
+.img-character {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.character-box:hover {
+    cursor: pointer;
+}
+
+.character-info-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.select-pages {
+    margin: 90px 400px 20px 400px;
+}
+
+.index-main div h1 {
+    color: var(--blue1);
+    width: 370px;
+}
+.name {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.info-span > span{
+    display: inline;
+}
+
+.display1 {
+    display: block;
+}
+
+.display2 {
+    display: none;
+}
+
+.main-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.home01{
+    display: flex;
+    margin-right: 1000px;
+}
+.contato{
+    margin-right:100px;
+    padding-right: 10px;
+}
+.character-container {
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .character-box {
+    display: flex;
+    gap: 1rem;
+    background-color:dimgrey;
+    border-radius: 8px;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+  }
+
+  .character-box:hover{
+    box-shadow: 10px -10px white;
+  }
+  
+  .character-box img {
+    width: 50%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .character-info {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    grid-auto-flow: 0.4rem;
+  }
+  
+  .character-info .true::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-color: green;
+    border-radius: 50%;
+  }
+  
+  .character-info .false::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-color: red;
+    border-radius: 50%;
+  }
